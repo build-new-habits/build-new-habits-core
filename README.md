@@ -97,73 +97,65 @@ Standard: Level AAA (WCAG).
 
 Features: High contrast modes, Screen reader compatibility, Resizable text.
 
+Design System (Theming)
+
+Each major section has a distinct psychological color code (from planning docs):
+
+Study Planner: Blue (#3B82F6) - Focus/Calm
+
+Meals: Orange (#F97316) - Appetite/Energy
+
+Cleaning: Green (#10B981) - Freshness
+
+Budget: Purple (#8B5CF6) - Value/Sophistication
+
+DIY: Yellow (#F59E0B) - Caution/Practical
+
+Support: Teal (#14B8A6) - Wellbeing/Safety
+
+Legal: Dark Blue (#1E40AF) - Trust/Authority
+
+Uni Essentials: Pink (#EC4899) - Youthful/Friendly
+
 3. The Roadmap
 
 ✅ Phase 1: The Foundation (Completed)
 
-$$x$$
+[x] Universal HTML Shell created.
 
- Universal HTML Shell created.
+[x] CSS Design System (Solid cards, Mobile responsive) created.
 
-$$x$$
+[x] JS Engine (Router + Store) created.
 
- CSS Design System (Solid cards, Mobile responsive) created.
-
-$$x$$
-
- JS Engine (Router + Store) created.
-
-$$x$$
-
- "Mode Switcher" implemented (Can toggle between Athlete/Student modes).
+[x] "Mode Switcher" implemented (Can toggle between Athlete/Student modes).
 
 🚧 Phase 2: The Command Center (Planning & Execution)
 
-$$$$
-
- The Smart Planner: A weekly grid that handles Meals (Student) or Workouts (Athlete).
+[ ] The Smart Planner: A weekly grid that handles Meals (Student) or Workouts (Athlete).
 
 Requirement: Must support dragging items, clearing the week, and saving "Regular Weeks" (Templates).
 
-$$$$
+[ ] The "Add" Logic: A unified search bar (filter.js) that finds meals, habits, or tasks.
 
- The "Add" Logic: A unified search bar (filter.js) that finds meals, habits, or tasks.
-
-$$$$
-
- The Editor: A form to add new Cards to the library without writing code.
+[ ] The Editor: A form to add new Cards to the library without writing code.
 
 🔜 Phase 3: The Content Engines (Specifics)
 
-$$$$
+[ ] Study Engine: Pomodoro Timer & Flashcard logic.
 
- Study Engine: Pomodoro Timer & Flashcard logic.
+[ ] Budget Engine: "Envelope" budgeting logic with visual progress bars.
 
-$$$$
+[ ] Meal Engine: "Leftover" matching logic and Shopping List aggregator.
 
- Budget Engine: "Envelope" budgeting logic with visual progress bars.
-
-$$$$
-
- Meal Engine: "Leftover" matching logic and Shopping List aggregator.
-
-$$$$
-
- Legal Engine: "Flip and Expand" dynamic window for detailed rights info.
+[ ] Legal Engine: "Flip and Expand" dynamic window for detailed rights info.
 
 🔮 Phase 4: The Commercial Polish
 
-$$$$
+[ ] Gamification: Badges for "First Meal Cooked," "Budget Kept."
 
- Gamification: Badges for "First Meal Cooked," "Budget Kept."
+[ ] Data Export: Download Shopping List (PDF/Text).
 
-$$$$
-
- Data Export: Download Shopping List (PDF/Text).
-
-$$$$
-
- PWA Support: "Add to Home Screen" capability.
+[ ] PWA Support: "Add to Home Screen" capability.
 
 4. How to Resume Work
 
