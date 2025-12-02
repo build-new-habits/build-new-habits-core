@@ -7,7 +7,7 @@ const App = {
     // 1. CONFIGURATION (The Switch)
     config: {
         // CHANGE THIS TO SWITCH MODES: 'athlete', 'student', or 'senior'
-        currentMode: 'athlete', 
+        currentMode: 'student', 
         
         modes: {
             athlete: {
