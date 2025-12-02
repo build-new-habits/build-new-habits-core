@@ -1,3 +1,4 @@
+import { Planner } from './planner.js';
 /**
  * BUILD NEW HABITS CORE (v1.0)
  * The Universal Engine for AthleteOS, StudentHub, and SeniorSkills.
