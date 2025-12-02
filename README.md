@@ -19,15 +19,39 @@ The "Smart" Angle: "Just-in-Time Learning." It detects when a student is broke (
 
 Core Modules:
 
-Study Planner: Pomodoro timer, Flashcards, AI Prompt Engineering guide.
+Study Planner: * Features: Pomodoro timer, Flashcards (create/save), Spaced Repetition Tracker, Time Management Tips, Study Environment Hacks.
 
-Meals: Budget-filtered recipes, "Leftovers" logic, Shopping List generator.
+AI Learning Hub: Guides on using AI ethically (Research Assistant, Essay Coach, Exam Practice Partner) with templates and "boundary" warnings.
 
-Budgeting: Student Loan calculator, "Needs vs Wants" tracker.
+Timetable: Drag-and-drop schedule (Day/Week/Term view), Learning Goals with micro-detail options.
 
-Cleaning/DIY: "Job Cards" for tasks (e.g., "How to bleed a radiator").
+Referencing: Harvard Referencing Guide with generators for Books, Journals, Websites.
 
-Legal/Support: Rights guide (Tenancy, Wages) + Emergency Contacts.
+Meals: * Browsing: Filter by Meal Type, Budget (£/££/£££), Dietary (Vegan, Halal, etc.).
+
+Smart Logic: "Leftovers" calculator (suggests recipes based on unused ingredients).
+
+Meal Planner: Weekly view, auto-generated Shopping List (aggregating quantities, e.g., "Buy 500g butter" instead of 2x 250g).
+
+Card Design: Front shows Cost/Calories/Rating; Back shows Portion/Nutrients/Complexity/Instructions.
+
+Budgeting: * Calculators: Monthly Budget (Income vs Expenses), "Needs vs Wants vs Savings" (50/30/20 rule).
+
+Goal Tracking: Savings Pots (Emergency Fund, Holiday, Laptop) with progress bars.
+
+Education: Articles on Student Loans, Credit Scores, Pensions.
+
+Cleaning/DIY: * Job Cards: Task-based guides (e.g., "Mop Kitchen", "Bleed Radiator") filtered by Room/Difficulty.
+
+Routine: Scheduler for cleaning tasks (Today/Week/4-Week view).
+
+Find Shops: Local store locator (Supermarkets, Hardware, Post Office) via Google Maps integration.
+
+Legal/Support: * Rights Guide: "Flip and Expand" cards for Tenancy, Wages, Consumer Rights.
+
+Emergency: One-tap access to 999, NHS 111, Samaritans, Campus Security.
+
+Uni Essentials: Packing checklists (Bedroom, Kitchen, Study) with "Reset" function.
 
 Product B: AthleteOS (Personal Prototype)
 
@@ -55,47 +79,91 @@ Key Features (Derived from "Project Plan")
 
 The "Card Factory": Generates UI cards from JSON data. Supports "Flip" animation for details.
 
+Design Style: "Option B" - Cards with coloured headers for categories.
+
+Flip Interaction: "Option A" - Click anywhere to flip.
+
 "Fake AI" Reasoning Engine: A logic layer that makes recommendations based on inputs (e.g., If Leftovers = Chicken THEN Show Chicken Curry).
 
-Gamification Engine: Points, Badges, and Streaks tracked in store.js.
+Gamification Engine: * Mechanics: Points, Badges, Streaks.
 
-Admin Update System: All reference data (Minimum Wage, Legal Limits) is stored in a single reference.json file for instant updates.
+Triggers: "First Meal Cooked", "Budget Kept", "All Week Complete" celebration animations.
+
+Admin Update System: All reference data (Minimum Wage, Legal Limits) is stored in a single reference.json file for instant updates via a simple admin interface or direct file edit.
+
+Accessibility:
+
+Standard: Level AAA (WCAG).
+
+Features: High contrast modes, Screen reader compatibility, Resizable text.
 
 3. The Roadmap
 
 ✅ Phase 1: The Foundation (Completed)
 
-[x] Universal HTML Shell created.
+$$x$$
 
-[x] CSS Design System (Solid cards, Mobile responsive) created.
+ Universal HTML Shell created.
 
-[x] JS Engine (Router + Store) created.
+$$x$$
 
-[x] "Mode Switcher" implemented (Can toggle between Athlete/Student modes).
+ CSS Design System (Solid cards, Mobile responsive) created.
+
+$$x$$
+
+ JS Engine (Router + Store) created.
+
+$$x$$
+
+ "Mode Switcher" implemented (Can toggle between Athlete/Student modes).
 
 🚧 Phase 2: The Command Center (Planning & Execution)
 
-[ ] The Smart Planner: A weekly grid that handles Meals (Student) or Workouts (Athlete).
+$$$$
 
-[ ] The "Add" Logic: A unified search bar (filter.js) that finds meals, habits, or tasks.
+ The Smart Planner: A weekly grid that handles Meals (Student) or Workouts (Athlete).
 
-[ ] The Editor: A form to add new Cards to the library without writing code.
+Requirement: Must support dragging items, clearing the week, and saving "Regular Weeks" (Templates).
+
+$$$$
+
+ The "Add" Logic: A unified search bar (filter.js) that finds meals, habits, or tasks.
+
+$$$$
+
+ The Editor: A form to add new Cards to the library without writing code.
 
 🔜 Phase 3: The Content Engines (Specifics)
 
-[ ] Study Engine: Pomodoro Timer & Flashcard logic.
+$$$$
 
-[ ] Budget Engine: "Envelope" budgeting logic.
+ Study Engine: Pomodoro Timer & Flashcard logic.
 
-[ ] Meal Engine: "Leftover" matching logic.
+$$$$
+
+ Budget Engine: "Envelope" budgeting logic with visual progress bars.
+
+$$$$
+
+ Meal Engine: "Leftover" matching logic and Shopping List aggregator.
+
+$$$$
+
+ Legal Engine: "Flip and Expand" dynamic window for detailed rights info.
 
 🔮 Phase 4: The Commercial Polish
 
-[ ] Gamification: Badges for "First Meal Cooked," "Budget Kept."
+$$$$
 
-[ ] Data Export: Download Shopping List (PDF/Text).
+ Gamification: Badges for "First Meal Cooked," "Budget Kept."
 
-[ ] PWA Support: "Add to Home Screen" capability.
+$$$$
+
+ Data Export: Download Shopping List (PDF/Text).
+
+$$$$
+
+ PWA Support: "Add to Home Screen" capability.
 
 4. How to Resume Work
 
