@@ -1,8 +1,9 @@
 Build New Habits: The Core Platform
 
-Status: Phase 1 (Foundation)
+Status: Phase 1 (Foundation) Complete. Ready for Phase 2.
 Tech Stack: HTML5, CSS3, Vanilla JS (Modular ES6), LocalStorage.
-Repository Type: Private Monorepo.
+Repository: build-new-habits-core
+Live Link: https://github.com/build-new-habits/build-new-habits-core
 
 1. The Business Strategy
 
@@ -38,63 +39,135 @@ The "Smart" Angle: It detects frustration (repeated incorrect clicks or help req
 
 Content: Large-text, step-by-step guides for tech literacy.
 
-2. The Technical Architecture
+2. Phase Completion Log (What & Why)
 
-We use a "White Label" strategy. The code is identical for all three apps; only the Configuration, Data, and Logic Rules change.
+A record of completed work and the strategic reasoning behind it.
 
-The File Structure
+✅ Phase 1: The Foundation (Foundation & Identity)
 
-index.html: The Universal Shell (Header, Nav, Viewport).
+Status: Completed.
 
-style.css: The Design System (CSS Variables allow instant re-branding).
+Feature Built
 
-js/app.js: The Logic Core (Store, Router, Factory, UI).
+Technical Reason
 
-data/: (Planned) JSON files containing the specific content packs.
+Pedagogical/Psychological Reason
 
-Key Logic Features
+Modular Architecture (Store/Router/UI)
 
-Card Factory (The Interface): A system that generates UI cards from JSON data automatically.
+Allows one codebase to power 3 apps. Reduces technical debt.
 
-Smart Reasoning Engine (The Coach):
+Cognitive Load Management: Keeps the codebase distinct so we don't mix "Student" logic with "Athlete" logic.
 
-This is the "Secret Sauce". It uses heuristic rules ("If X then Y") to mimic an AI Coach.
+The "Card Factory"
 
-Logic Example: If (Stress > 7) AND (Energy < 3) THEN (Hide 'HIIT' AND Show 'Meditation').
+Enables infinite content expansion via simple JSON files.
 
-It actively intervenes rather than passively displaying data.
+Micro-Learning (Chunking): Information is presented in discrete, manageable cards to prevent overwhelm (ADHD friendly).
 
-Context Engine (The Identity): User profiles (Injuries, Budget, Role) determine the baseline rules.
+Design System (CSS Vars)
 
-Local Persistence: Data saves to the browser (localStorage), ensuring privacy and zero server costs.
+Instant re-branding (Dark Mode/University Colors).
 
-3. The Roadmap
+Sensory Regulation: High contrast, low glare design reduces visual noise, aiding focus for neurodiverse users.
 
-✅ Phase 1: The Foundation (Completed)
+Context Engine
 
-[x] Universal HTML Shell created.
+Stores user state locally without servers.
 
-[x] CSS Design System (Solid cards, Mobile responsive) created.
+Privacy & Safety: Users feel safe knowing their health/finance data never leaves their device.
 
-[x] JS Engine (Router + Store) created.
+3. Master Product Development Plan
 
-[x] "Mode Switcher" implemented (Can toggle between Athlete/Student modes).
+The roadmap for future development, linking features to learning outcomes.
 
-🚧 Phase 2: The Logic (Next Up)
+🚧 Phase 2: The Command Center (Planning & Execution)
 
-[ ] The Smart Planner: A drag-and-drop schedule that rejects bad combinations (e.g., Heavy legs after a poor sleep log).
+Goal: Move from "Viewing" to "Doing".
+Current Status: Next to build.
 
-[ ] The Editor: A form to add new Cards to the library without writing code.
+Feature
 
-[ ] The Filter: Search logic to find specific content instantly.
+Technical Implementation
 
-🔜 Phase 3: The Soul (Wellbeing)
+Pedagogy & User Benefit
 
-[ ] Mood Meter: Quadrant-based emotional check-in that feeds the Reasoning Engine.
+The Smart Planner
 
-[ ] Dopamine Ledger: A virtual wallet tracking "Good Habits" vs "Spending".
+A drag-and-drop weekly grid. Logic to detect "Bad Combos" (e.g., Heavy Gym + Poor Sleep).
+
+Executive Function Scaffolding: Offloads the mental energy of "scheduling" to the app. Prevents decision fatigue.
+
+The "Add" Logic
+
+A unified search bar (filter.js) that finds meals, habits, or tasks.
+
+Just-in-Time Learning: Provides the right resource exactly when the user has the impulse to act.
+
+Content Editor
+
+A simple form UI to generate JSON data.
+
+Empowerment: Allows non-coders (e.g., Teachers) to add content without fear of breaking the app.
+
+🔜 Phase 3: The Soul (Emotional Regulation)
+
+Goal: Integrate mental health as a data point.
+
+Feature
+
+Technical Implementation
+
+Pedagogy & User Benefit
+
+Mood Meter
+
+Quadrant-based input (Energy vs. Pleasantness) using Marc Brackett's model.
+
+Emotional Intelligence: Teaches the user to identify specific emotions, not just "good" or "bad."
+
+Smart Recommendations
+
+if (mood == 'anxious') recommend('breathwork').
+
+Self-Regulation: Provides an immediate, healthy coping mechanism rather than impulsive scrolling/spending.
+
+Dopamine Ledger
+
+A virtual wallet tracking "Good Habits" vs "Spending".
+
+Delayed Gratification: Gamifies the pause between "Urge" and "Action," retraining the dopamine reward loop.
+
+🔮 Phase 4: The Commercial Polish (Scale)
+
+Goal: Ready for B2B License sales.
+
+Feature
+
+Technical Implementation
+
+Pedagogy & User Benefit
+
+Data Export
+
+JSON Export/Import buttons.
+
+Ownership: The user owns their progress.
+
+PWA Support
+
+manifest.json for "Add to Home Screen".
+
+Accessibility: Removes barriers to entry. No app store download needed.
+
+White Label Config
+
+A single config file to swap Logos/Names.
+
+Institutional Identity: Colleges can brand it as their own, increasing student trust.
 
 4. How to Resume Work
 
-If starting a new AI session, provide this prompt:
-"We are building 'Build New Habits', a modular web app. I have the Phase 1 files (HTML/CSS/JS) set up. Crucially, this uses a Smart Reasoning Engine to act as a Coach. We are now ready to start Phase 2: Building the Smart Planner Logic that can handle these recommendations. Please help me code the planner.js module."
+If starting a new AI session, paste this entire file and use this prompt:
+
+"I am the Lead Developer of 'Build New Habits'. This README contains our Architecture, Strategy, and completed work. We are currently at the start of Phase 2. Please review the 'Master Product Development Plan' for Phase 2 and help me write the code for the Smart Planner Logic."
